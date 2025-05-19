@@ -10,11 +10,14 @@ const Hero = () => {
         <h1>Welcome to Our Platform</h1>
         <div className="buttons">
        
-            
+             <a href="/login">
             <button className="btn btn-light">Login</button>
-
-          
-            <button className="btn btn-light">Sign Up</button>
+            </a>
+             <a href="/register">
+            
+              <button className="btn btn-light">Sign Up</button>
+            </a>
+              
          
         </div>
       </div>
